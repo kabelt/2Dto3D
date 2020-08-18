@@ -36,4 +36,4 @@ Then relaunch 2Dto3D with your map;
 ./2Dto3D <your_map>
 ```
 ### Acknowledgements
-This project is part of 42 pedagogy originally as Cub3D.
+This project is part of 42 pedagogy originally named as Cub3D.
