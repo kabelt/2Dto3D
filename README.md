@@ -1,7 +1,6 @@
 # 2Dto3D :milky_way:
 Want to create your own simple 3D world?
 Put in an ASCII map, 2Dto3D will take care of the rest. :metal:
-![](images/image1.png)
 ### Requirements
 This project relies on MiniLibX and can be run only on MacOS.
 ### Installations
