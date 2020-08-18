@@ -7,7 +7,7 @@ This project relies on MiniLibX and can be run only on MacOS.
 ### Installations
 run the following command in your terminal
 ```shell
-cd ~/Downloads && git clone https://github.com/kabelt/2Dto3D.git 2Dto3D && cd 2Dto3D && make && ./Cub3D_bonus maps/map1.cub
+cd ~/Downloads && git clone https://github.com/kabelt/2Dto3D.git 2Dto3D && cd 2Dto3D && make && ./2Dto3D maps/map1.cub
 ```
 ### Controls
 | KEY           | Action        |
