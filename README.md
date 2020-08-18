@@ -1,6 +1,6 @@
 # 2Dto3D :milky_way:
-Want to create your own simple 3D world?
-Put in an ASCII map, 2Dto3D will take care of the rest. :metal:
+Want to create your own simple 3D world?\
+Put in an ASCII map, 2Dto3D will take care of the rest. :metal:\
 All of the features were implemented without the any help from external libraries. :star:
 ![](images/image2.png)
 ### Requirements
