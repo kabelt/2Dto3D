@@ -6,7 +6,7 @@
 #    By: kmaneera <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/23 13:59:22 by kmaneera          #+#    #+#              #
-#    Updated: 2020/08/18 16:56:52 by kmaneera         ###   ########.fr        #
+#    Updated: 2020/08/18 17:13:11 by kmaneera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,19 +54,19 @@ $(OBJ_DIR)%.o : $(SRCS_DIR)%.c $(HEADERS)
 	@$(CC) $(FLAGS) -c $(INC) $< -o $@
 
 $(LIBFT):
-	#@$(MAKE) -sC $(LIBFT_DIR)
+	@$(MAKE) -sC $(LIBFT_DIR)
 
 $(MINILIBX):
-	#@$(MAKE) -sC $(MINILIBX_DIR)
+	@$(MAKE) -sC $(MINILIBX_DIR)
 
 clean:
-	#@$(MAKE) -sC $(MINILIBX_DIR) clean
-	#@$(MAKE) -sC $(LIBFT_DIR) clean
+	@$(MAKE) -sC $(MINILIBX_DIR) clean
+	@$(MAKE) -sC $(LIBFT_DIR) clean
 	@rm -rf $(OBJ_DIR)
 
 fclean: clean
-	#@rm -f $(MINILIBX)
-	#@rm -f $(LIBFT)
+	@rm -f $(MINILIBX)
+	@rm -f $(LIBFT)
 	@rm -f $(NAME)
 
 re:
