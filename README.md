@@ -5,7 +5,7 @@ Put in an ASCII map, 2Dto3D will take care of the rest. :metal:
 ### Requirements
 This project relies on MiniLibX and can be run only on MacOS.
 ### Installations
-run the following command in your terminal
+run the following command in your terminal. You should see the window similar to the above screenshot.
 ```shell
 cd ~/Downloads && git clone https://github.com/kabelt/2Dto3D.git 2Dto3D && cd 2Dto3D && make && ./2Dto3D maps/map1.cub
 ```
@@ -28,5 +28,11 @@ cd ~/Downloads && git clone https://github.com/kabelt/2Dto3D.git 2Dto3D && cd 2D
 - [x] customizable wall/ceiling colors
 - [x] shadow effect based on distance
 - [x] minimap
+### It's time to create you own world!
+You can find the details about how .cub files works [here](subject/en.subject.pdf) on page 6-9.
+Then relaunch 2Dto3D with your map;
+```shell
+./2Dto3D <your_map>
+```
 ### Acknowledgements
-This project is part of 42 pedagogy as Cub3D.
+This project is part of 42 pedagogy originally as Cub3D.
