@@ -6,7 +6,7 @@
 /*   By: kmaneera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/23 13:49:48 by kmaneera          #+#    #+#             */
-/*   Updated: 2020/04/23 13:49:48 by kmaneera         ###   ########.fr       */
+/*   Updated: 2020/08/18 17:04:53 by kmaneera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ void	freeall(t_sto *inf)
 int     exit_hook(t_sto *inf)
 {
 	freeall(inf);
-	system("leaks -q cub3d");
     exit(0);
 }
 

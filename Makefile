@@ -6,11 +6,11 @@
 #    By: kmaneera <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/23 13:59:22 by kmaneera          #+#    #+#              #
-#    Updated: 2020/04/23 16:31:49 by kmaneera         ###   ########.fr        #
+#    Updated: 2020/08/18 16:56:52 by kmaneera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = cub3d
+NAME = 2Dto3D
 
 CC = gcc
 FLAGS = -Wall -Wextra -Werror
