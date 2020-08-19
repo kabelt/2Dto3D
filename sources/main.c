@@ -6,7 +6,7 @@
 /*   By: kmaneera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/28 17:50:33 by kmaneera          #+#    #+#             */
-/*   Updated: 2020/04/23 13:59:14 by kmaneera         ###   ########.fr       */
+/*   Updated: 2020/08/18 21:16:27 by kmaneera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	ini_mlx(t_sto *inf)
 		inf->s_width = S_WIDTH;
 	if (inf->s_height > S_HEIGHT)
 		inf->s_height = S_HEIGHT;
-	if (!(inf->win = mlx_new_window(inf->mlx, inf->s_width, inf->s_height, "CUB3D")))
+	if (!(inf->win = mlx_new_window(inf->mlx, inf->s_width, inf->s_height, "2Dto3D")))
 		errexit("Error\nMLX initization error!");
 	if (!(inf->img = mlx_new_image(inf->mlx, inf->s_width, inf->s_height)))
 		errexit("Error\nMLX initization error!");
