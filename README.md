@@ -2,7 +2,7 @@
 Want to create your own simple 3D world?\
 Put in an ASCII map, 2Dto3D will take care of the rest. :metal:\
 It can transform a plain txt map like this;\
-<img src="images/image1.png" width=30% height=30%>\
+<img src="images/image1.png" width=40% height=40%>\
 to be a [Wolfenstein_3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)-like 3D world like this;\
 ![](images/image2.png)\
 All of the features were implemented without any help from external libraries. :star:
