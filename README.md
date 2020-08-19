@@ -1,8 +1,11 @@
 # 2Dto3D :milky_way:
 Want to create your own simple 3D world?\
 Put in an ASCII map, 2Dto3D will take care of the rest. :metal:\
-All of the features were implemented without any help from external libraries. :star:
+It can transform a plain txt map like this;\
+![](images/image2.png)
+to be a [Wolfenstein_3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)-like 3D world like this;\
 ![](images/image1.png)
+All of the features were implemented without any help from external libraries. :star:
 ### Requirements
 This project relies on MiniLibX and can be run only on MacOS.
 ### Installations
