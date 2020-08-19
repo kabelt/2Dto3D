@@ -2,7 +2,7 @@
 Want to create your own simple 3D world?\
 Put in an ASCII map, 2Dto3D will take care of the rest. :metal:\
 All of the features were implemented without any help from external libraries. :star:
-![](images/image2.png)
+![](images/image1.png)
 ### Requirements
 This project relies on MiniLibX and can be run only on MacOS.
 ### Installations
