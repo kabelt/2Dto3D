@@ -2,11 +2,9 @@
 Want to create your own simple 3D world?\
 Put in an ASCII map, 2Dto3D will take care of the rest. :metal:\
 It can transform a plain txt map like this;\
-<p align="center">
-  <img width="460" height="300" src="images/image1.png">
-</p>
+![](images/image1.png)\
 to be a [Wolfenstein_3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)-like 3D world like this;\
-![](images/image2.png)
+![](images/image2.png)\
 All of the features were implemented without any help from external libraries. :star:
 ### Requirements
 This project relies on MiniLibX and can be run only on MacOS.
